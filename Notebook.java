@@ -37,11 +37,11 @@ public class Notebook {
 
     public static void main(String[] args) {
         Set<Notebook> notebooks = new HashSet<>();
-        notebooks.add(new Notebook("Notebook1", 8, 500, "Windows 10", "Black"));
-        notebooks.add(new Notebook("Notebook2", 16, 1000, "Windows 7", "Silver"));
-        notebooks.add(new Notebook("Notebook3", 4, 256, "Windows 7", "White"));
-        notebooks.add(new Notebook("Notebook4", 8, 500, "MacOS", "Silver"));
-        notebooks.add(new Notebook("Notebook5", 16, 1000, "Minty", "Red"));
+        notebooks.add(new Notebook("Notebook1", 8, 512, "Windows 10", "Black"));
+        notebooks.add(new Notebook("Notebook2", 16, 1024, "Windows 7", "Silver"));
+        notebooks.add(new Notebook("Notebook3", 4, 1024, "Windows 7", "White"));
+        notebooks.add(new Notebook("Notebook4", 32, 512, "MacOS", "Silver"));
+        notebooks.add(new Notebook("Notebook5", 16, 1024, "Minty", "Red"));
 
         Map<String, String> filterCriterion = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
